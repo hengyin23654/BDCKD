@@ -20,10 +20,11 @@ It contains the implementation of the algorithms and methods described in the pa
 
 #### Comparison of various distillation methods' accuracy across same teacher-student architectures.
 
-| Teacher/Student | WRN-40-1 | RN-8x4 | Vgg8 | RN-20 |
+| Teacher         | WRN-40-2 | RN-32x4 | Vgg13 | RN-110 |
 | --------------- | -------- | ------ | ---- | ----- |
-| WRN-40-2        | 75.61    | 79.42  | 74.64| 74.31  |
-| Student         | 71.98    | 72.50  | 70.36| 69.06  |
+| ACC                | 75.61    | 79.42  | 74.64| 74.31  |
+| Student         | WRN-40-1 | RN-8x4 | Vgg8 | RN-20 |
+| ACC                 | 71.98    | 72.50  | 70.36| 69.06 | 
 | FitNet          | 72.24    | 73.50  | 71.02| 68.99  |
 | CRD (ICLR 2020) | 74.14    | 75.51  | 73.94| 71.16  |
 | RKD (CVPR 2019) | 72.22    | 75.51  | 71.48| 69.25  |
@@ -37,12 +38,11 @@ It contains the implementation of the algorithms and methods described in the pa
 | $\Delta$ KD $\uparrow$ | **+1.44** | **+3.92** | **+1.75** | **+0.94** |
 
 #### Comparison of various distillation methods' accuracy across different teacher-student architectures.
-
-| Teacher/Student | WRN-40-2 | RN-50 | RN-32x4 | RN-32x4 |
+| Teacher | WRN-40-2 | RN-50 | RN-32x4 | RN-32x4 |
 | --------------- | -------- | ----- | ------- | ------- |
-| WRN-40-2        | 75.61    | 79.34 | 79.42   | 79.42   |
+| ACC                | 75.61    | 79.34 | 79.42   | 79.42   |
 | Student         | SN-V1    | MN-V2 | SN-V1   | SN-V2   |
-|                 | 70.50    | 64.60 | 70.50   | 71.82   |
+| ACC                | 70.50    | 64.60 | 70.50   | 71.82   |
 | FitNet          | 73.73    | 63.16 | 73.54   | 73.54   |
 | CRD (ICLR 2020) | 76.05    | 69.11 | 75.11   | 75.65   |
 | RKD (CVPR 2019) | 72.21    | 64.43 | 73.21   | 73.21   |
