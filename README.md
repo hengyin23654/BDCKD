@@ -3,7 +3,7 @@
 ## Introduction
 
 
-This is the official code repository for the research paper.
+This is the official code repository for the ICASSP 2025 research paper---BDCKD Unlocking the Power of Brownian Distance Covariance in Knowledge Distillation.
 It contains the implementation of the algorithms and methods described in the paper.
 
 ## BDCKD
