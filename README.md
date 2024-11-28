@@ -114,10 +114,10 @@ It contains the implementation of the algorithms and methods described in the pa
   python3 tools/train.py --cfg configs/tiny_imagenet/bdc/r34_mv2.yaml
   ```
 
-## Download model weights and worklog
+## Download model weights and worklogs
 We are organizing our models and worklog, and will gradually improve them.
 
-
+Download Link: [BaiduYunPan](https://pan.baidu.com/s/1FFjpFg742K34eBqPmjbXHg?pwd=t5jw)
 
 
 ## Acknowledgement
