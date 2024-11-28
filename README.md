@@ -68,6 +68,21 @@ It contains the implementation of the algorithms and methods described in the pa
 | BDCKD (Ours)    | **68.51** | **87.27** | **63.21** | **84.45** |
 | $\Delta$ KD $\uparrow$ | **+1.32** | **+0.92** | **+6.52** | **+1.86** |
 
+#### Experimental accuracy on CUB-200-2011 Dataset
+| Teacher | Vgg13 | ResNet32x4 | Vgg13 | ResNet32x4 |
+| ------- | ----- | ---------- | ----- | ---------- |
+| ACC |70.19	|66.17|	70.19	|66.17|
+| Student         | Vgg8    | MobileNetV2 | MobileNetV2   | ShuffleNetV1   |
+| ACC                | 46.32    | 40.23 | 40.23   | 37.28   |
+| KD (NIPS 2014)  | 64.18    | 56.09 | 53.98   | 61.68   |
+| DKD (CVPR 2022) | 67.20    | 59.94 | 58.45   | 64.51   |
+| DIST (NeurIPS 2022) | 65.84 | 59.51 | 61.41   | 66.07   |
+| LSKD (CVPR 2024) | 57.06   | 60.51 | 60.74   | 65.91   |
+| BDCKD (Ours)    | **68.04**| **62.17** | **62.44** | **67.18** |
+| $\Delta$ KD $\uparrow$ | **+3.86** | **+6.08** | **+8.46** | **+5.50** |
+
+
+
 ## Getting started
 
 1. Evaluation
@@ -98,6 +113,12 @@ It contains the implementation of the algorithms and methods described in the pa
   # for instance, our BDC method.
   python3 tools/train.py --cfg configs/tiny_imagenet/bdc/r34_mv2.yaml
   ```
+
+## Download model weights and worklog
+We are organizing our models and worklog, and will gradually improve them.
+
+
+
 
 ## Acknowledgement
 
